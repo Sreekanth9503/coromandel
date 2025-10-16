@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="vendor-bg">
+    <marquee behavior="scroll" direction="left">
+        <ul class="pt-2 fs-5 fw-medium" style="color: yellow;">
+            <li>Please do NOT open multiple sessions/use multiple or different browsers at a time to submit invoices, <br>it will result in incorrect invoice submission & delayed payment.</li>
+            <li class="pt-3">Please submit Digitally Signed invoices (DSC) for speedy/smooth processing & payment.</li>
+        </ul>
+    </marquee>
+   <div class="login-container">
+    <h2>Vendor Connect</h2>
+    <form action="index.html" id="vendorform" onsubmit="return vendorValidation()">
+      <label for="vendoruserid">User ID :</label>
+      <input type="text" id="vendoruserid" placeholder="User ID">
+      <p id="vendoridError" class="text-danger text-start"></p>
+      <label for="vendorpassword">Password :</label>
+      <input type="password" id="vendorpassword" placeholder="Password" >
+      <p id="vendorpasswordError" class="text-danger text-start"></p>
+      <button type="submit">Login</button>
+    </form>
+    <div class="links">
+      <a href="#">Forgot Password</a> | 
+      <a href="#">Corporate Enquiry</a>
+    </div>
+    <div>
+        <p class="fw-medium pt-3 text-center">Copyright © 2025 The Hackett Group. <br> All rights reserved.</p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

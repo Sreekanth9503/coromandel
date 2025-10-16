@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Document</title> <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid sticky top"> 
+      <div class="top-bar"> 
+        <div class="container-fluid d-flex justify-content-end"> 
+          <ul class="nav"> 
+            <li class="nav-item dropdown mt-1 me-5"> 
+            <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown"> Login </a> 
+            <ul class="dropdown-menu"> 
+              <li><a class="dropdown-item" style="padding-top: 80px;" href="employee.html">Employee</a></li> 
+              <li><a class="dropdown-item" href="dealer.html">Dealer</a></li> 
+              <li><a class="dropdown-item" href="vendor.html">Vendor</a></li> </ul> </li> </ul> <ul class="nav "> 
+              <li class="nav-item dropdown"> 
+                <select name="" id="" class="language mt-2 me-5"> 
+                  <option class="opt" value="">English</option> 
+                  <option class="opt" value="">Telugu</option> 
+                </select> 
+              </li> 
+            </ul> 
+          </div> 
+        </div> 
+        <nav class="navbar navbar-expand-xxl navbar-light navbar-custom sticky-top"> 
+            <div class="container-fluid"> 
+                <a class="navbar-brand ms-5" href="#"> 
+                <img src="assets/logo.png"class="" alt="Logo" height="60"> 
+                </a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"> 
+                    <span class="navbar-toggler-icon"></span> 
+                </button> 
+                <div class="collapse navbar-collapse" id="mainNav"> 
+                    <ul class="navbar-nav " style="font-size: 18px;"> 
+                        <li class="nav-item px-2"><a class="nav-link" href="#">Home</a></li> 
+                        <li class="nav-item dropdown px-2"> 
+                            <a class="nav-link dropdown-toggle" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown"> Company </a> 
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" href="about.html">About Us-overview</a></li> 
+                                <li><a class="dropdown-item" href="about.html#operations">Our operations</a></li> 
+                                <li><a class="dropdown-item" href="about.html#vision">our vision</a></li> 
+                                <li><a class="dropdown-item" href="about.html#awards">Awards</a></li> 
+                            </ul> 
+                        </li> 
+                        <li class="nav-item dropdown px-2"> 
+                            <a class="nav-link dropdown-toggle" href="products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown"> Products & Services </a> 
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" href="products.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="crop-nutrition.html">Crop Nutrition</a></li> 
+                                <li><a class="dropdown-item" href="crop-protection.html">Crop Protection</a></li> 
+                                <li><a class="dropdown-item" href="retail.html">Retail</a></li> 
+                            </ul> 
+                        </li> 
+                        <li class="nav-item dropdown px-2"> 
+                            <a class="nav-link dropdown-toggle" href="investors.html" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown"> Investors </a> 
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" href="investors.html#finance">Financials and Reports</a></li> 
+                                <li><a class="dropdown-item" href="investors.html#Presentations">Presentations</a></li> 
+                                <li><a class="dropdown-item" href="investors.html#policies">Governance and Policies</a></li> 
+                                <li><a class="dropdown-item" href="investors-contact.html">Investors-Contact</a></li> 
+                            </ul> 
+                        </li> 
+                        <li class="nav-item dropdown px-2"> 
+                            <a class="nav-link dropdown-toggle" href="#" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown"> sustainability </a> 
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" href="sustain.html">overview</a></li> 
+                                <li><a class="dropdown-item" href="people.html">People</a></li> 
+                                <li><a class="dropdown-item" href="society.html">Society</a></li> 
+                            </ul> 
+                        </li> 
+                        <li class="nav-item dropdown px-2"> 
+                            <a class="nav-link dropdown-toggle" href="career.html" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown"> Careers </a> 
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" href="#">Work With Us</a></li> 
+                            </ul> 
+                        </li> 
+                        <li class="nav-item dropdown px-2"> <a class="nav-link dropdown-toggle" href="#" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown"> Media & Insights </a> 
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" href="press.html">Press Releases</a></li> 
+                                <li><a class="dropdown-item" href="blogs.html">Our Blogs</a></li> 
+                            </ul> 
+                        </li>
+                        <li class="nav-item px-2"><a class="nav-link" href="contact.html">Contact</a></li> 
+                    </ul>
+                </div> 
+            </div> 
+        </nav> 
+    </header> 
+    <section class="mainbanner container-fluid p-0 m-0"> 
+        <div class="carousel slide " data-bs-ride="carousel" id="banner"> 
+            <div class="carousel-indicators"> 
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button> 
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button> 
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button> 
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button> 
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="4"></button> 
+            </div> 
+            <div class="carousel-inner"> 
+                <div class="carousel-item active" data-bs-interval="4500"> 
+                    <video class=" w-100" autoplay muted > 
+                        <source src="assets/video4.mp4" type="video/mp4"> 
+                    </video> 
+                </div> 
+                <div class="carousel-item" data-bs-interval="4500"> 
+                    <video class=" w-100" autoplay muted > 
+                        <source src="assets/video1.mp4" type="video/mp4"> 
+                    </video> 
+                </div>
+                <div class="carousel-item" data-bs-interval="4500"> 
+                    <video class=" w-100" autoplay muted > 
+                        <source src="assets/video3.mp4" type="video/mp4"> 
+                    </video> 
+                </div>
+                <div class="carousel-item" data-bs-interval="4500"> 
+                    <video class=" w-100" autoplay muted > 
+                        <source src="assets/video5.mp4" type="video/mp4"> 
+                    </video> 
+                </div>
+                <div class="carousel-item" data-bs-interval="4500"> 
+                    <video class=" w-100" autoplay muted > 
+                        <source src="assets/video2.mp4" type="video/mp4"> 
+                    </video> 
+                </div>
+            </div>  
+        </div> 
+    </section>
+    <section class="numbers container"> 
+        <div class="row mt-3" style="text-align: center;"> 
+            <div class="col-6 col-md-3 m-auto"> 
+                <div class="p-2"> 
+                    <h2 class="ps-2"><span id="products" >1000</span>+</h2> 
+                    <p>Agricultural Products</p> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-3 m-auto"> 
+                <div> 
+                    <h2 class="ps-2"><span id="points" >100000</span>+</h2> 
+                    <p>Farmer Touch Points</p> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-3 m-auto"> 
+                <div> 
+                    <h2 class="ps-2"><span id="countries" >80</span>+</h2> 
+                    <p>Countries Served</p> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-3 m-auto"> 
+                <div> 
+                    <h2 class="ps-2"><span id="stores" >900</span>+</h2> 
+                    <p>Retail Stores</p>
+                </div> 
+            </div> 
+        </div> 
+    </section>
+    <section class="container my-5"> 
+        <h4 class="fw-bold" style="color: #ffa500;">Our Products & Services</h4> 
+        <h1 class="fw-bold">What we Serve</h1> 
+        <div class=" row " style="text-align: center;"> 
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 m-auto"> 
+                <div class="home-products mb-3"> 
+                    <img src="assets/img1.png" class="w-100 p-2" style="border-radius: 15px;" alt=""> 
+                    <h5 class="text-secondary ps-3 mt-3 mb-5">Fertilizers</h5> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 m-auto">  
+                <div class="home-products mb-3"> 
+                    <img src="assets/img1.jpeg" class="w-100 p-2" style="border-radius: 15px;" alt=""> 
+                    <h5 class="text-secondary ps-3 mt-3 mb-5">Speciality <br> Nutrients</h5> 
+                </div> 
+            </div> 
+        <div class="col-6 col-md-4 col-lg-3 col-xl-2 m-auto"> 
+                <div class="home-products mb-3"> 
+                    <img src="assets/img1.webp" class="w-100 p-2" style="border-radius: 15px;" alt=""> 
+                    <h5 class="text-secondary ps-3 mt-3 mb-5">Organic Fertilizers</h5> 
+                </div>
+            </div> 
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 m-auto"> 
+                <div class="home-products mb-3"> 
+                    <img src="assets/img1.jpg" class="w-100 p-2" style="border-radius: 15px;" alt=""> 
+                    <h5 class="text-secondary ps-3 mt-3 mb-5">Crop Protection</h5> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 m-auto"> 
+                <div class="home-products mb-3"> 
+                    <img src="assets/img2.webp" class="w-100 p-2 mt-1" style="border-radius: 15px;" alt=""> 
+                    <h5 class="text-secondary ps-3 mt-4 mb-5">Bio Products</h5> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 m-auto"> 
+                <div class="home-products mb-3"> 
+                    <img src="assets/img2.jpeg" class="w-100 p-2" style="border-radius: 15px;" alt=""> 
+                    <h5 class="text-secondary ps-3 mt-3 mb-5">Retail</h5> 
+                </div> 
+            </div> 
+        </div> 
+    </section>
+    <section class="container my-5"> 
+        <div class="row farm"> 
+            <div class="col-lg-6 farming1 p-5"> 
+                <h2 class="text-light">AgTech - Transforming Farming Practices</h2> 
+                <p class="pt-5 text-light fs-5">Embracing the future of farming, we integrate cutting-edge technology to enhance efficiency, maximise output, and ensure sustainability. From precision-driven applications to automation, our solutions optimize resource use, reduce labour dependency, and elevate food quality. Farmers are empowered with smarter, more efficient, tech-driven practices that drive increased crop yields and enhance resource efficiency, keeping them ahead in modern agriculture.</p> 
+            </div> 
+            <div class="col-lg-6 farming2"> 
+                <img src="assets/drone.png" class="drone w-25" alt=""> 
+            </div> 
+        </div> 
+    </section>
+    <section class="container main-about"> 
+        <h5 class="fw-bold fs-4 mt-5 " style="color: orange;">Who we are</h5> 
+        <h3 class="fw-bold fs-2">Our Brand Story</h3> 
+        <img src="assets/logo1.png" class="logo1 my-2 w-25" alt=""> 
+        <div class="row"> 
+            <div class="col-6 col-md-4 col-lg-2 mb-3"> 
+                <div> 
+                    <img src="assets/Brand-Logo-Icon1.png" class="w-75" alt=""> 
+                    <p class="fw-bold mt-3">Offering a comprehesnive range of crop Nutrition Products</p> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-2 mb-3"> 
+                <div> 
+                    <p class="fw-bold mt-3">Delivering an array of Crop Health Products</p> 
+                    <img src="assets/Brand-Logo-Icon2.png" class="w-75" alt=""> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-2 mb-3"> 
+                <div> 
+                    <img src="assets/Brand-Logo-Icon3.png" class="w-75" alt=""> 
+                    <p class="fw-bold mt-3">Neem-based Bio Products supporting both crop protection and nutrition</p> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-2 mb-3"> 
+                <div> 
+                    <p class="fw-bold mt-3">A Retail Network of 900+ stores seating access to quality Agri Products</p> 
+                    <img src="assets/Brand-Logo-Icon4.png" class="w-75" alt=""> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-2 mb-3"> 
+                <div> 
+                    <img src="assets/Brand-Logo-Icon5.png" class="w-75" alt=""> 
+                    <p class="fw-bold mt-3">Delivering digital transformation through e-commerce, automation & AI</p> 
+                </div> 
+            </div> 
+            <div class="col-6 col-md-4 col-lg-2 mb-3"> 
+                <div> 
+                    <p class="fw-bold mt-3">Promoting sustainable farming through Drone Spraying Services</p> 
+                    <img src="assets/Brand-Logo-Icon6.png" class="w-75" alt=""> 
+                </div> 
+            </div> 
+        </div> 
+    </section>
+    <section class="map container-fluid"> 
+        <div class="map-print container mt-5"> 
+            <div class="row"> <div class="col-md-6"> 
+                <div class=""> 
+                    <h5 class="fw-bold fs-4 pt-2 text-primary">Our reach </h5> 
+                    <h3 class="fw-bold fs-2">Our Global presence </h3> 
+                </div> 
+            </div> 
+            <div class="col-md-6"> <div class="mt-5 d-flex flex-column" style="padding-left: 250px;"> 
+                <div> 
+                    <img src="assets/location.png" class="" style="width: 20px;" alt=""> 
+                    <span>Subsidiaries / Local Offices</span> 
+                </div> 
+                <div> 
+                    <img src="assets/shakehand.png" style="width: 20px;" alt=""> 
+                    <span>Strategic Investment / Partnership</span> 
+                </div> 
+                <div> 
+                    <img src="assets/dot.png" style="width: 20px;"> 
+                    <span>Marketing / Sourcing Presence</span> 
+                </div> 
+            </div> 
+        </div> 
+    </section>  
+    <section class="needs"> 
+        <div class="container mt-5"> 
+            <div class="row " style="text-align: center;"> 
+                <div class="col-md-6 col-lg-4 col-xl-3 m-auto mb-3"> 
+                    <div class="need mb-3"> 
+                        <img src="assets/pic1.jpg" class="w-100" alt=""> 
+                        <h4 class="p-2 mb-0">Coromandel International Launches its 1000th</h4> 
+                        <p class="p-2">Coromandel International Launches its 1000th Gromor Retail Store Near Pune (Ahilyanagar).</p> 
+                    </div> 
+                </div> 
+                <div class="col-md-6 col-lg-4 col-xl-3 m-auto mb-3"> 
+                    <div class="need mb-3"> 
+                        <img src="assets/pic2.jpg" class="w-100" alt=""> 
+                        <h4 class="p-2 ">Coromandel Empowers 30 Women Entrepreneurs</h4> 
+                        <p class="p-2 ">Coromandel Empowers 30 Women Entrepreneurs across 9 Villages in Visakhapatnam</p> 
+                    </div> 
+                </div> 
+                <div class="col-md-6 col-lg-4 col-xl-3 m-auto mb-3"> 
+                    <div class="need mb-3"> 
+                        <img src="assets/pic3.jpg" class="w-100" alt=""> 
+                        <h4 class="p-2">Coromandel Enhances Community Infrastructure</h4> 
+                        <p class="p-2">Coromandel Enhances Community Infrastructure in Visakhapatnam with Community Hall, Open Gym &...</p> 
+                    </div> 
+                </div> 
+                <div class="col-md-6 col-lg-4 col-xl-3 m-auto mb-3"> 
+                    <div class="need mb-3"> 
+                        <img src="assets/pic4.jpg" class="w-100" style="height: 190px;" alt=""> 
+                        <h4 class="p-2">Coromandel International Completes Acquisition of</h4> 
+                        <p class="p-2 pb-0">Coromandel International Completes Acquisition of 53 % Controlling Stake in NACL Industries.</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+    <section class="mainfooter container-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="m-auto mt-5 text-center">
+                        <i class="bi bi-facebook ms-1 text-white" style="font-size: 30px;"></i>
+                        <i class="bi bi-linkedin ms-1 text-white" style="font-size: 30px;"></i>
+                        <i class="bi bi-instagram ms-1 text-white" style="font-size: 30px;"></i>
+                        <i class="bi bi-youtube ms-1 text-white" style="font-size: 30px;"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-btn p-3 mt-4 text-center">
+                        <a href=""><button class="btn text-light border-0">About Us</button></a>
+                        <a href=""><button class="btn text-light  border-0">Contact Us</button></a>
+                        <a href=""><button class="btn text-light  border-0">Carrers</button></a>
+                        <a href=""><button class="btn text-light  border-0">Blogs</button></a>
+                    </div>
+                    <div class="footer-btn p-5 pt-0 m-auto text-center ">
+                        <a href=""><button class="btn text-light  border-0">Privacy Policy</button></a>
+                        <a href=""><button class="btn text-light  border-0">Sitemap</button></a>
+                        <a href=""><button class="btn text-light  border-0">Terms to Use</button></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class=" mt-1 mb-5 text-center">
+                        <img src="assets/logo2.png" class="logo2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-bg-dark">
+        <div class=" text-center">
+            <h5 class="py-4 m-0">Copyright &copy; 2025 Coromandel International Ltd.</h5>
+        </div>
+    </footer>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#products').counterUp({
+            delay: 1,
+            time: 3000
+        });
+        $('#points').counterUp({
+            delay: 1,
+            time: 3000
+        });
+        $('#countries').counterUp({
+            delay: 1,
+            time: 3000
+        });
+        $('#stores').counterUp({
+            delay: 1,
+            time: 3000
+        });
+        });
+
+    </script>
+</body>     
+</html>

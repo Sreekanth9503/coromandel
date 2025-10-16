@@ -1,0 +1,384 @@
+.navbar-nav .nav-link.dropdown-toggle{
+    color: white !important;
+}
+.navbar-nav .nav-link.dropdown-toggle:focus,
+.navbar-nav .nav-link.dropdown-toggle:active{
+    color: white !important;
+    background-color: transparent !important;
+}
+.dropdown-item:hover,
+.language:hover{
+    background-color: transparent !important;
+    color: orangered !important;
+}
+body{
+    background-color: #F3EEE8;
+}
+header{
+    color: white;
+    background-color: black;
+}
+.nav-item{
+    padding-bottom: 10px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: green;
+}
+.dropdown-menu{
+    color: white;
+    background-color: black;
+}
+.home-products:hover,
+.grid-item:hover,
+.need:hover,
+.about-grid-item:hover,
+.about-products:hover,
+.mission-img:hover,
+.about-awards1:hover,
+.about-awards:hover{
+    border: 2px solid white;
+}
+.language,
+.opt{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.carousel-item {
+  transition: transform 1s ease-in-out; 
+}
+.carousel-item video {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    display: block;
+}
+.numbers h2{
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
+}
+.numbers p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-products,
+.about-products,
+.grid-item,
+.need{
+    box-shadow: 0px 3px 0px lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: white;
+}
+.home-products{
+    height: 250px;
+    width: 250;
+}
+.home-products img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+.grid-item{
+    height: 250px;
+    padding-top: 20px;
+}
+.info .sect-heading{
+    color: #ff4500;
+}
+.farming1{
+    background-color: #ff4500;
+}
+.farming2{
+    background-image: url("assets/img3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.farm{
+    background-color: palegreen;
+    border-radius: 20px;
+}
+.drone{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.logo1{
+    margin-left: 35%;
+}
+.map{
+    background-color: white;
+    height: 100vh;
+}
+.map-print{
+    width: 100%;
+    height: 100%;
+    background-image:url("assets/map.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo2{
+    width:100px;
+    margin-top: 40px;
+}
+.mainfooter{
+    border-bottom: 1px solid  lightgrey;
+    background-color: black;
+}
+.footer-btn btn{
+    background-color: black;
+    font-size: 20px;
+}
+.need{
+    height: 450px;
+}
+
+.about-head-name{
+    color: #ff4500;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-head{
+    background-color: rgb(17, 52, 17);
+    color: #ff4500;
+}
+.about-page-num{
+    background-image: url("assets/bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-grid-item{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-image: url("assets/bg2.1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-awards1 img,
+.about-awards img{
+    border-radius: 20px;
+    height: 280px;
+}
+.about-grid-item,
+.about-awards1,
+.about-awards{
+    box-shadow: 0px 3px 0px lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: white;
+}
+.about-awards1 p{
+    padding-bottom: 80px;
+}
+.about-ban-head,
+.about-content-head{
+    color: #ff4500;
+}
+.about-banner{
+    background-color: white;
+}
+.about-contnet-para{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.product-fertilizers{
+    background-color: white;
+}
+.product-retail-container{
+    background-image: url("assets/about-vision1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fertilizers-hero:hover,
+.pro-img:hover,
+.nutrient-fertilizers:hover,
+.nutrient-organic:hover,
+.nutrient-nano:hover,
+.fungicides:hover {
+    border: 2px solid white;
+}
+.retail-head{
+    background-color:orangered;
+    color: white;
+}
+.investors-gov {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.contact-banner{
+    background-image: url("assets/contact-img1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    color: white;
+}
+.contact-info{
+    border: 1px solid black;
+    border-radius:25px;
+    background-color: white;
+}
+
+.nutrient-fertilizers{
+    border-radius:25px;
+    background-color:white;
+    height:520px
+}
+.nutrient-organic,
+.nutrient-nano,
+.fungicides{
+    border-radius:25px;
+    background-color:white;
+    height: 400px;
+}    
+.blogs-container p,
+.press-container{
+    font-size: 18px;
+    font-weight: 600;
+}
+.press-container img{
+    height: 200px;
+}
+.press-container .card{
+    height: 500px;
+}
+.sustain-head{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.sustain-mean p{
+    text-align: center;
+    font-weight: 600;
+}
+.sustain-bg{
+    background-image: url("aseets/sustainn-img7.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vendor-bg{
+    background-image: url("assets/vendor-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+    height: 100vh; 
+}
+.login-container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 400px;
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-container label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+.login-container input,
+.dealer-login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background:orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container button:hover,
+.dealer-login-container button:hover{
+    background:orangered;
+}
+.links {
+    margin-top: 10px;
+    text-align: center;
+}
+.links a {
+    color: blue;
+    margin: 0 8px;
+    font-size: 16px;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.dealer-login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 400px;
+}
+.dealer-login-container h2{
+    font-size: 18px;
+    color: #ff4500;
+    margin: 15px;
+}
+.dealer-login-container label{
+    font-weight: bold;
+    display: block;
+    padding-left:10px ;
+    font-size: 18px;
+    margin: 10px 5px 10px;
+}
+.dealer-login-container button{
+    width: 100%;
+    padding: 10px;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;    
+    margin-bottom: 20px;
+}
+.emp-bg{
+    background-image: url("assets/emp-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.people-head{
+    height: auto;
+}
+.sustain-img:hover{
+    border:2px solid white;
+}
+.card:hover{
+    border: 2px solid white;
+}

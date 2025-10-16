@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid sticky top">
+        <div class="top-bar">
+            <div class="container-fluid d-flex justify-content-end">
+                <ul class="nav">
+                    <li class="nav-item dropdown mt-1 me-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown">
+                            Login
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" style="padding-top: 80px;" href="employee.html">Employee</a></li>
+                            <li><a class="dropdown-item" href="dealer.html">Dealer</a></li>
+                            <li><a class="dropdown-item" href="vendor.html">Vendor</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav ">
+                    <li class="nav-item dropdown">
+                        <select name="" id="" class="language mt-2 me-5">
+                            <option class="opt" value="">English</option>
+                            <option class="opt" value="">Telugu</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-xxl navbar-light navbar-custom sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="#">
+                    <img src="assets/logo.png"class="" alt="Logo" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav" style="font-size: 18px;">
+                        <li class="nav-item px-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="about.html" id="companyDropdown" role="button" data-bs-toggle="dropdown">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us-overview</a></li>
+                            <li><a class="dropdown-item" href="about.html#operations">Our operations</a></li>
+                            <li><a class="dropdown-item" href="about.html#vision">our vision</a></li>
+                            <li><a class="dropdown-item" href="about.html#awards">Awards</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+                                Products & Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="products.html">Overview</a></li>
+                                <li><a class="dropdown-item" href="crop-nutrition.html">Crop Nutrition</a></li>
+                                <li><a class="dropdown-item" href="#">Crop Protection</a></li>
+                                <li><a class="dropdown-item" href="retail.html">Retail</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="investors.html" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown">
+                                Investors
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="investors.html#finance">Financials and Reports</a></li>
+                                <li><a class="dropdown-item" href="investors.html#Presentations">Presentations</a></li>
+                                <li><a class="dropdown-item" href="investors.html#policies">Governance and Policies</a></li>
+                                <li><a class="dropdown-item" href="investors-contact.html">Investors-Contact</a></li>                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown">
+                                sustainability
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sustain.html">overview</a></li>
+                                <li><a class="dropdown-item" href="people.html">People</a></li>
+                                <li><a class="dropdown-item" href="society.html">Society</a></li>                              
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown">
+                                Careers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="career.html">Work With Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="InvestorsDropdown" role="button" data-bs-toggle="dropdown">
+                                Media & Insights
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="press.html">Press Releases</a></li>
+                                <li><a class="dropdown-item" href="blogs.html">Our Blogs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="retail-head container-fluid">
+        <div class="container">
+           <div class="row ">
+                <div class="col-md-6">
+                    <div>
+                        <h2 class="fw-bold fs-2 ps-3 pt-3">Crop Protection</h2>
+                        <p class="ps-3 fs-5 pt-3 pb-3">India looses around 25% of its potential crop output due to pest and disease infestation. We at Coromandel, are strengthening the plant defences through our Crop Protection products. We are promoting an extensive range of crop solutions including herbicides, insecticides, fungicides and plant growth promoters to improve farm yields.</p>
+                    </div>
+                </div>
+                    <div class="col-md-6">
+                        <div class="text-center">
+                            <img src="assets/crop-ptr-int-img1.png" class="w-75  p-5" style="height: 30vh;" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+    </section> 
+    <section class="pesticides container-fluid">
+        <div class="container">
+            <h2 class="ps-2 fs-1 fw-bolder mt-5" style="color: green;">Fungicides</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img1.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Aaroosh</h4>
+                        <p class="px-2 text-center fw-medium">This foliar contact fungicide interferes effectively at different locations….</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img2.png" class="p-5 w-100" style="border-radius: 25px;height:225px" alt=""></a>
+                        <h4 class="text-center fw-bold">Hexastop​</h4>
+                        <p class="px-2 text-center fw-medium">This is a xylem mobile systemic fungicide which has preventive and curative control capabilities,</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img3.png" class="p-5 w-100" style="border-radius: 25px;height:225px" alt=""></a>
+                        <h4 class="text-center fw-bold">Jatayu​</h4>
+                        <p class="px-2 text-center fw-medium">It is a broad-spectrum fungicide with superior protective action thanks to its multisite mode of…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img4.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Lancia​</h4>
+                        <p class="px-2 text-center fw-medium">Patented and unique, this protectant fungicide prevents the fungus..</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img5.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Marlett M 45​​</h4>
+                        <p class="px-2 text-center fw-medium">Besides being a broad-spectrum contact fungicide, …</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img6.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Magnite​</h4>
+                        <p class="px-2 text-center fw-medium">It is a broad-spectrum product that offers preventive, systemic …</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img7.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Prospell​​</h4>
+                        <p class="px-2 text-center fw-medium">It is a patented broad-spectrum fungicide which has both …</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-fun-img2.png" class="p-5  w-100" style="border-radius: 25px;height:225px" alt=""></a>
+                        <h4 class="text-center fw-bold">Hexastop​</h4>
+                        <p class="px-2 text-center fw-medium">This is a xylem mobile systemic fungicide which has preventive and curative control capabilities,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fertilizers container-fluid">
+        <div class="container">
+            <h2 class="ps-2 fs-1 fw-bolder mt-5" style="color: green;">Insecticides</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img2.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Toscee​</h4>
+                        <p class="px-2 text-center fw-medium pb-4">Toscee is a broad-spectrum contact insecticide effective against a wide variety of sucking pests.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img3.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Marvex​</h4>
+                        <p class="px-2 text-center fw-medium">Marvex is a unique combination Larvicide containing Emamectin Benzoate 2.2% and Permethrin 15.3 % in…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img4.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Prachand​</h4>
+                        <p class="px-2 text-center fw-medium">Coromandel in collaboration with ISK of Japan has introduced a novel patented insecticide Prachand containing…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img5.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Astra​</h4>
+                        <p class="px-2 text-center fw-medium">This insecticide with Pymetrozine works effectively against BPH by making them stop feeding, paralysing their…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img6.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Finio​</h4>
+                        <p class="px-2 text-center fw-medium">It has quick Knockdown effect for all stages of whiteflies and has Diafenthiuron and Pyriproxifen…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img7.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Sicario Sc</h4>
+                        <p class="px-2 text-center fw-medium">Besides providing long duration control against Lepidopteran pests, it also facilitates better ..</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img8.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Sicario Gr​</h4>
+                        <p class="px-2 text-center fw-medium">This has long duration control over Yellow Stem Borers and helps in the development of…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-int-img9.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Mythri​​</h4>
+                        <p class="px-2 text-center fw-medium">With Fipronil and Hexythiazox as its main ingredients, it gives effective control over thrips….</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fertilizers container-fluid">
+        <div class="container">
+            <h2 class="ps-2 fs-1 fw-bolder mt-5" style="color: green;">Herbicides</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-her-img1.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Eezykil-ultra​</h4>
+                        <p class="px-2 text-center fw-medium">Eezykil Ultra is a pre-emergent herbicide having Pendimethalin 38.7% CS…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-her-img2.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Victini-Z​</h4>
+                        <p class="px-2 text-center fw-medium">Victini – Z has the active ingredient Pretilachlor 37% EW which is a broad-spectrum selective…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-her-img3.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Rukawat X​</h4>
+                        <p class="px-2 text-center fw-medium">This herbicide has Quizalofop ethyl which is a selective, systemic and post emergence herbicide and…</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="fungicides m-1">
+                        <a href=""><img src="assets/crop-ptr-her-img4.png" class="p-5 w-100" style="border-radius: 25px;height:250px" alt=""></a>
+                        <h4 class="text-center fw-bold">Officer​</h4>
+                        <p class="px-2 text-center fw-medium">Powered by a unique formulation for post emergent weed control in paddy, this has a…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="crop-nutrients-contact container  mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 col-lg-4  mb-3">
+                <div class="p-5 "style="background-color: white;border-radius: 25px;">
+                    <i class="bi bi-geo-alt fs-2 text-success"></i>
+                    <h4 class="ps-3 pb-1">Telangana
+                        Coromandel House, Sardar Patel Road, Secunderabad 500 003,
+                        India.
+                    </h4>  
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  mb-3">
+                <div class="p-5 "style="background-color: white;border-radius: 25px;">
+                    <i class="bi bi-telephone fs-2 text-success"></i>
+                    <h4 class="ps-3">1800-425-2828</h4>
+                    <h2 class="fw-bolder fs-1">Please reach out to us!</h2>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mainfooter container-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="m-auto mt-5 text-center">
+                        <i class="bi bi-facebook ms-1 text-white" style="font-size: 30px;"></i>
+                        <i class="bi bi-linkedin ms-1 text-white" style="font-size: 30px;"></i>
+                        <i class="bi bi-instagram ms-1 text-white" style="font-size: 30px;"></i>
+                        <i class="bi bi-youtube ms-1 text-white" style="font-size: 30px;"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-btn p-3 mt-4 text-center">
+                        <a href=""><button class="btn text-light border-0">About Us</button></a>
+                        <a href=""><button class="btn text-light  border-0">Contact Us</button></a>
+                        <a href=""><button class="btn text-light  border-0">Carrers</button></a>
+                        <a href=""><button class="btn text-light  border-0">Blogs</button></a>
+                    </div>
+                    <div class="footer-btn p-5 pt-0 m-auto text-center ">
+                        <a href=""><button class="btn text-light  border-0">Privacy Policy</button></a>
+                        <a href=""><button class="btn text-light  border-0">Sitemap</button></a>
+                        <a href=""><button class="btn text-light  border-0">Terms to Use</button></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class=" mt-1 mb-5 text-center">
+                        <img src="assets/logo2.png" class="logo2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-bg-dark">
+        <div class=" text-center">
+            <h5 class="py-4 m-0">Copyright &copy; 2025 Coromandel International Ltd.</h5>
+        </div>
+    </footer>
+</body>
+</html>
